@@ -1,0 +1,39 @@
+h1.brand-title {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 2.0em;
+    padding-bottom: 10px;
+}
+h1.post-title {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+section.post h2 {
+    font-weight: normal;
+}
+section.post h2::before {
+    font-size: .8em;
+    content: "#";
+    color: #7f1000;
+    padding-right: 5px;
+}
+p.post-author {
+    font-size: .5em;
+}
+code.hljs {
+    background-color: #2D303B;
+}
+#toc ul > li > ul li {
+    padding-bottom: 1em;
+}
+#toc ul > li > ul li::before {
+    font-size: .8em;
+    content: "#";
+    color: #7f1000;
+    padding-right: 5px;
+}
+#toc a {
+    text-decoration: none;
+}
+
